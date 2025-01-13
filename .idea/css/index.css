@@ -1,0 +1,42 @@
+
+.body_container {
+    display: flex;
+    justify-content: center;
+    font-family: "Nunito Sans", serif;
+
+    /*header*/
+
+    header {
+        height: 872px;
+        max-width: 1920px;
+        width: 100%;
+        background: url("../resourse/banner.png") no-repeat;
+
+        #top_menu {
+            display: flex;
+            height: 52px;
+            background-color: black;
+
+            .top_menu_container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                margin: 0 8%;
+
+                .contact_info {
+                    display: flex;
+                    height: 20px;
+                    color: white;
+                    gap: 5px;
+                }
+
+                #call_me {
+                    color: rgba(79, 143, 240, 1);
+                }
+            }
+        }
+    }
+
+    /*header_end*/
+}
