@@ -1,42 +1,125 @@
+/*in the process of development*/
 
+/*body*/
 .body_container {
     display: flex;
     justify-content: center;
     font-family: "Nunito Sans", serif;
+}
 
-    /*header*/
+/*header*/
 
-    header {
-        height: 872px;
+header {
+    height: 872px;
+    max-width: 1920px;
+    width: 100%;
+}
+
+/*top_menu*/
+#top_menu {
+    display: flex;
+    height: 52px;
+    background-color: black;
+}
+
+.top_menu_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 8%;
+}
+
+.contact_info {
+    display: flex;
+    height: 20px;
+    color: white;
+    gap: 5px;
+}
+
+#call_me {
+    color: rgba(79, 143, 240, 1);
+}
+
+/*nav_menu*/
+/*in the process of development*/
+/*main_slider*/
+#main_slider {
+    max-width: 1920px;
+    height: 872px;
+    position: relative;
+    overflow: hidden;
+    ul{
+        margin: 0;
+    }
+}
+
+.list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    width: max-content;
+    transition: 1s;
+
+    img {
         max-width: 1920px;
-        width: 100%;
-        background: url("../resourse/banner.png") no-repeat;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #fff5;
+        color: #fff;
+        border: none;
+        font-family: monospace;
+        font-weight: bold;
+    }
+}
+.dots {
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 
-        #top_menu {
-            display: flex;
-            height: 52px;
-            background-color: black;
-
-            .top_menu_container {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                width: 100%;
-                margin: 0 8%;
-
-                .contact_info {
-                    display: flex;
-                    height: 20px;
-                    color: white;
-                    gap: 5px;
-                }
-
-                #call_me {
-                    color: rgba(79, 143, 240, 1);
-                }
-            }
-        }
+    li {
+        list-style: none;
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        margin: 20px;
+        border-radius: 20px;
+        transition: 1s;
     }
 
-    /*header_end*/
+    li.active{
+        width: 30px;
+
+    }
 }
+
+
+
+/*header_end*/
+/*main*/
+/*in the process of development*/
+/*end_main*/
+/*footer*/
+/*in the process of development*/
+/*end_footer*/
