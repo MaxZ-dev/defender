@@ -2,7 +2,6 @@
 
 /*import*/
 @import "font.css";
-
 /*body*/
 .body_container {
     display: flex;
@@ -46,7 +45,8 @@ header {
     }
 
     /*nav_menu*/
-    /*in the process of development*/
+
+
     /*main_slider*/
 
     #main_slider {
@@ -54,6 +54,37 @@ header {
         height: 820px;
         position: relative;
         overflow: hidden;
+
+        #nav_menu {
+            position: relative;
+            height: 112px;
+            z-index: 3;
+            background-color: rgba(1, 1, 1, 0.78);
+
+            div {
+                height: 100%;
+                max-width: 1920px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0 8%;
+                img {
+                    width: 300px;
+                    height: 60px;
+                }
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    display: flex;
+                    gap: 20px;
+                }
+
+                a {
+                    color: white;
+                }
+            }
+
+        }
 
         .list {
             position: absolute;
@@ -95,17 +126,20 @@ header {
                     border-radius: 5px;
                     margin-top: 20px;
                     background-color: rgba(79, 143, 240, 1);
+
                     span {
                         font-weight: 900;
                         font-size: 18px;
                     }
                 }
+
                 button:hover {
                     border-radius: 30px;
                     background-color: white;
                     color: rgba(79, 143, 240, 1);
                     transition: 1s;
                 }
+
                 button:active {
                     background-color: #3a3838;
                     transition: 0.2s;
@@ -177,7 +211,6 @@ header {
         }
     }
 }
-
 
 /*header_end*/
 /*main*/

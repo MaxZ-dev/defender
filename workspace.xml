@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3d804f-a4ff-4f19-81b9-fcf308d68abb" name="Changes" comment="finish slider">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/css/font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/css/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defender.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/defender.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourse/banner1.png" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/resourse/banner1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourse/banner2.png" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/resourse/banner2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourse/icon/mail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/resourse/icon/mail.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourse/icon/mob.svg" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/resourse/icon/mob.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourse/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/resourse/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrypt.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scrypt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8a3d804f-a4ff-4f19-81b9-fcf308d68abb" name="Changes" comment="finish slider" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +69,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Каринка и Максимка\WebstormProjects\defender\.idea" />
+      <recent name="C:\Users\Каринка и Максимка\WebstormProjects\defender" />
       <recent name="C:\Users\Каринка и Максимка\WebstormProjects\defender\.idea\resourse\icon" />
     </key>
   </component>
@@ -107,7 +92,7 @@
       <workItem from="1736880606836" duration="6210000" />
       <workItem from="1737014691914" duration="5365000" />
       <workItem from="1737051724644" duration="1826000" />
-      <workItem from="1737057401292" duration="2740000" />
+      <workItem from="1737057401292" duration="2843000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <option name="closed" value="true" />
@@ -149,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737060109822</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finish slider">
+      <option name="closed" value="true" />
+      <created>1737060180134</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737060180134</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
